@@ -1,0 +1,247 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.highlight-phone {
+    color: #313437;
+    background-color: #eef4f7;
+    padding: 3.125rem 0 3.438rem;
+    overflow: hidden;
+}
+
+@media (max-width:47.938rem) {
+    .highlight-phone {
+        text-align: center;
+    }
+}
+
+.highlight-phone p {
+    color: #7d8285;
+}
+
+.highlight-phone h2 {
+    font-weight: bold;
+    margin-bottom: 2.188rem;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit;
+}
+
+.highlight-phone .intro {
+    font-size: 1.125rem;
+    max-width: 31.25rem;
+    line-height: 1.5;
+}
+
+@media (max-width:47.938rem) {
+    .highlight-phone .intro {
+        max-width: none;
+    }
+}
+
+.highlight-phone .intro p {
+    margin-bottom: 2.188rem;
+}
+
+.highlight-phone .intro .btn {
+    padding: 1rem 2rem;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.813rem;
+    letter-spacing: 0.025rem;
+    line-height: 1;
+}
+
+.highlight-phone .intro .btn:hover {
+    opacity: 1;
+}
+
+.highlight-phone .intro .btn:active {
+    transform: translateY(0.063rem);
+}
+
+.highlight-phone .intro .btn-primary {
+    background-color: #055ada;
+    color: #fff;
+}
+
+.highlight-phone .phone-mockup {
+    position: relative;
+    max-width: 16.25rem;
+    margin-top: -1.875rem;
+    margin-bottom: -14.375rem;
+    transform: rotate(-15deg);
+}
+
+.highlight-phone .phone-mockup img.device {
+    width: 100%;
+    height: auto;
+}
+
+.highlight-phone .phone-mockup .screen {
+    position: absolute;
+    width: 94%;
+    height: 91%;
+    top: 1%;
+    left: 3%;
+    border: 0.063rem solid #444;
+    border-radius: 1.25rem;
+    background-color: #aaa;
+    overflow: hidden;
+    background: url(screen-content-phone.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.highlight-phone .phone-mockup .screen:before {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 70%;
+    height: 140%;
+    top: -6%;
+    right: -60%;
+    transform: rotate(-19deg);
+    opacity: 0.2;
+}
+
+.team-clean {
+    color: #313437;
+    background-color: #fff;
+}
+
+.team-clean p {
+    color: #7d8285;
+}
+
+.team-clean h2 {
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    color: inherit;
+}
+
+@media (max-width:47.938rem) {
+    .team-clean h2 {
+        margin-bottom: 1.563rem;
+        padding-top: 1.563rem;
+        font-size: 1.5rem;
+    }
+}
+
+.team-clean .intro {
+    font-size: 1rem;
+    max-width: 31.25rem;
+    margin: 0 auto;
+}
+
+.team-clean .intro p {
+    margin-bottom: 0;
+}
+
+.team-clean .people {
+    padding-bottom: 2.5rem;
+}
+
+.team-clean .item {
+    text-align: center;
+    padding-top: 3.125rem;
+}
+
+.team-clean .item .name {
+    font-weight: bold;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: inherit;
+}
+
+.team-clean .item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #d0d0d0;
+    letter-spacing: 0.125rem;
+    font-size: 0.813rem;
+}
+
+.team-clean .item .description {
+    font-size: 0.938rem;
+    margin-top: 0.938rem;
+    margin-bottom: 1.25rem;
+}
+
+.team-clean .item img {
+    max-width: 10rem;
+}
+
+.team-clean .social {
+    font-size: 10.5rem;
+    color: #a2a8ae;
+}
+
+.team-clean .social a {
+    color: inherit;
+    margin: 0 0.625rem;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.team-clean .social a:hover {
+    opacity: 1;
+}
+
+.navigasi {
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
+
+.navigasi .nama a {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #298AFB !important;
+}
+
+.navigasi form button {
+    color: white;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    background-color: #298AFB !important;
+    border-color: #298AFB !important;
+    letter-spacing: 4px;
+    text-align: center !important;
+    border-radius: 1.25rem;
+}
+
+.navigasi form button:hover {
+    color: #298AFB !important;
+    background-color: white !important;
+}
+
+.page-footer {
+    padding: 2.5rem;
+    box-shadow: 0px 4px 81px -10px rgba(0, 0, 0, 0.25);
+}
+
+.page-footer .brand h5 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2rem;
+    color: #298AFB !important;
+}
+
+.page-footer h6 {
+    color: #298AFB !important;
+}
+
+.page-footer ul li a {
+    color: black !important;
+}
+
+.page-footer .footer-copyright p {
+    font-weight: 700;
+    font-style: normal;
+}
